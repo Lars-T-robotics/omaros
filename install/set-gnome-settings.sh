@@ -9,3 +9,7 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 
 # Set kitty as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec 'kitty'
+
+# Make caps lock another ctrl
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+
