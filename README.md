@@ -1,7 +1,5 @@
 # omaros
 
 ```bash
-rm -rf ~/.local/share/omaros
-git clone git@github.com:Lars-T-robotics/omaros.git ~/.local/share/omaros >/dev/null
-source ~/local/share/omaros/install.sh
+curl -sSfL https://raw.githubusercontent.com/Lars-T-robotics/omaros/main/install.sh | sh
 ```
