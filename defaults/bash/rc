@@ -1,0 +1,4 @@
+source ~/.local/share/omaros/defaults/bash/shell
+source ~/.local/share/omaros/defaults/bash/aliases
+source ~/.local/share/omaros/defaults/bash/prompt
+source ~/.local/share/omaros/defaults/bash/init
