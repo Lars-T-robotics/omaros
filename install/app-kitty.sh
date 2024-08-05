@@ -6,3 +6,6 @@ sed -i "s|Icon=kitty|Icon=$(readlink -f ~)/.local/kitty.app/share/icons/hicolor/
 sed -i "s|Exec=kitty|Exec=$(readlink -f ~)/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
 echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 
+mkdir -p ~/.config/kitty
+cp ~/.local/share/omaros/configs/kitty.conf ~/.config/kitty/kitty.conf
+cp ~/.local/share/omaros/configs/catppuccin-mocha.conf ~/.config/kitty/catppuccin.conf
