@@ -8,4 +8,4 @@ echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 
 mkdir -p ~/.config/kitty
 cp ~/.local/share/omaros/configs/kitty.conf ~/.config/kitty/kitty.conf
-cp ~/.local/share/omaros/configs/catppuccin-mocha.conf ~/.config/kitty/catppuccin.conf
+cp ~/.local/share/omaros/configs/catppuccin-mocha.conf ~/.config/kitty/catppuccin-mocha.conf
