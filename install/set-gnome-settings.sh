@@ -13,3 +13,6 @@ gsettings set org.gnome.desktop.default-applications.terminal exec 'kitty'
 # Make caps lock another ctrl
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 
+# Enable natural scrolling
+gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
+
